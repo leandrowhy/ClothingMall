@@ -5,6 +5,7 @@ const Home = () => import("../views/home/Home.vue")
 const Cart = () => import("../views/cart/Cart.vue")
 const Category = () => import("../views/category/Category.vue")
 const Profile = () => import("../views/profile/Profile.vue")
+const Detail = () => import("../views/detail/Detail.vue")
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,13 @@ const routes = [
     component: Profile,
     meta:{
       title: "我的 - 全球最大的网络购物平台"
+    }
+  },
+  {
+    path: '/detail/:iid',
+    component: Detail,
+    meta:{
+      title: "商品详情 - 全球最大的网络购物平台"
     }
   }
 ]

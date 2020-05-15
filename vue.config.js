@@ -13,5 +13,6 @@ module.exports = {
             .set('@request', resolve('src/request'))
             .set('@common', resolve('src/components/common'))
             .set('@content', resolve('src/components/content'))
+            .set('@utils', resolve('src/utils'))
     },
 }

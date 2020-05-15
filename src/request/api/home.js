@@ -1,4 +1,4 @@
-import {request,request1} from "../request"
+import {request} from "../request"
 
 export function getHomeMultidata() {
   return request({
@@ -7,8 +7,8 @@ export function getHomeMultidata() {
 }
 
 export function getHomeData(type, page){
-  return request1({
-    url: '/api/mn/home/data',
+  return request({
+    url: '/home/data',
     params: {
       type,
       page
