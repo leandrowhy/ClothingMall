@@ -162,6 +162,7 @@ export default {
   position: relative;
   /* overflow: hidden; */
   /* height: 100vh; */
+  /* background-color: #eeeeee; */
 }
 .home-nav {
   position: fixed;

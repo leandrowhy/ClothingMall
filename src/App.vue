@@ -19,7 +19,4 @@ export default {
 
 <style>
 @import "assets/css/base.css";
-/* #app{
-  width: 100%;
-} */
 </style>

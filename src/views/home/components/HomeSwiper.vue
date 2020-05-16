@@ -1,5 +1,5 @@
 <template>
-  <swipe v-model="index" class="home-swipere">
+  <swipe v-model="index" :autoplayTime="3000" :speed="500" class="home-swipere">
     <swipe-item v-for="(item,index) in banners" :key="index">
       <img :src="item.image" @load="imageLoad" />
     </swipe-item>

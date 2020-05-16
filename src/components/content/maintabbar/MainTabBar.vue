@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <nav-bar>
+    <nav-bar class="nav">
       <!-- path 跳转路径   activeColor 活跃状态字体颜色 -->
       <nav-item path="/home">
         <img slot="item-icon" src="~@assets/img/tabbar/home.svg" alt />
@@ -23,7 +22,6 @@
         <div slot="item-text">我的</div>
       </nav-item>
     </nav-bar>
-  </div>
 </template>
 
 <script>
